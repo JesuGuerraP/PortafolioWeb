@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!--Menu Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mi Portafolio</a>
+            </div>
+            <nav id="nav" >
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INCIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+        </nav>
+        
+        <div class="nav-responsive" onclick= "mostrarOcultarmenu()" >
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+        </header>
+        
+    </div>
+
+   
+
+    <!--Seccion Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-imagen">
+                <img class="img-logo" src="img/logo.png" alt="">
+            </div>
+            <h1>INGENIERO DE SOFTWARE</h1>
+            <h2>  Jesús David Guerra Pineda</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/jesusdavid.guerrapineda/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/JesuGuerraP" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/jesus_gp17/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jesus-david-guerra-pineda-24a963273/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <P></P>
+                  <button onclick="descargarCV() ">
+                    Descargar Cv <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                  </button>
+
+            </div>
+        </div>
+        
+    </section>
+    <!--Seccion sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MÍ</h2>
+            <div class="item-sobremi">
+            <p class="p"> <span> Ingeniero de Software | developer software</span> ,  
+                Apasionado por la tecnología y el desarrollo de software, con experiencia en lenguajes y herramientas como Java, SQL,
+                Spring Boot, JavaScript, React, HTML, CSS, y Python. He participado en proyectos académicos donde desarrollé
+                aplicaciones web orientadas a mejorar la eficiencia del usuario final, aplicando buenas prácticas de desarrollo y
+                diseño.
+                
+                Me destaco por mi enfoque en la comunicación efectiva, el trabajo en equipo y la capacidad de comprender las necesidades
+                del cliente para crear soluciones innovadoras que superen sus expectativas. Mi objetivo es crecer profesionalmente y
+                contribuir a proyectos significativos que generen un impacto positivo en la sociedad. Estoy siempre dispuesto a
+                enfrentar nuevos desafíos que impulsen mi desarrollo como profesional y como persona.</p>
+            </div>
+            <div class="fila">
+        <!--Datos Personales-->
+        <div class="col">
+
+            <h3>Datos Personales</h3>
+            <ul>
+                <li>
+                    <strong>🎂Cumpleaños: </strong>
+                    17/12/2001
+                </li>
+            
+
+            
+                <li>
+                    <strong>📞Teléfono:</strong>
+                    +57 3024094733
+                </li>
+               
+                    <li>
+                        <strong>📧Email:</strong>
+                        jesusguerrapineda000@gmail.com
+                    </li>
+
+                    <li>
+                       <strong>🌿Git: </strong>
+                       Atucsara.org
+                    </li>
+
+                    <li>
+                        <strong>📍Dirección:</strong>
+                        Magangué-Bolívar, Colombia 
+                    </li>
+
+                    <li>
+                        <strong>💼CARGO:</strong>
+                       <span>INGENIERO DE SOFTWARE,</span>
+                       <span> DEVELOPER</span>
+                    </li>  
+            </ul>
+            
+        </div>
+        
+
+         <!--Intereses-->
+        <div class="col">
+       <h3>Intereses</h3>
+
+       <div class="contenedor-intereses">
+        <div class="interes">
+            <i class="fa-solid fa-lightbulb"></i>
+                   <span>Innovación</span>
+        </div>
+
+        <div class="interes">
+            
+            <i class="fa-solid fa-file-contract"></i>
+                   <span>Aprendizaje continuo</span>
+        </div>
+
+        <div class="interes">
+            <i class="fa-regular fa-clock"></i>
+             <span>Gestión del tiempo</span>
+        </div>
+
+        <div class="interes">
+            <i class="fa-solid fa-desktop"></i>           
+             <span>Programar</span>
+        </div>
+
+        <div class="interes">
+            <i class="fa-solid fa-plane"></i>                  
+            <span>Viajar</span>
+        </div>
+
+        <div class="interes">
+            <i class="fa-solid fa-motorcycle"></i>
+              <span>Motos</span>
+        </div>
+        
+       </div>
+        
+
+      </div>
+
+      
+
+         </div>
+         
+        </div>
+
+    </section>
+
+    <!--Seccion Habilidades-->
+    <section class="habilidades" id="habilidades">
+
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+
+            <div class="fila">
+                <!--Habilidad tecnica-->
+
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="habilidades">
+                    <span>Java</span>
+
+                    <div class="barra-habilidades">
+
+                        <div class="progreso ">
+                            <span>88% </span>
+
+                             </div>
+                           </div>
+                        </div>
+
+                 <!---->
+                 
+                 <div class="habilidades">
+                    <span>HTML & CSS</span>
+
+                    <div class="barra-habilidades">
+
+                        <div class="progreso">
+                            <span>80%</span>
+
+                             </div>
+                           </div>
+                        </div>
+                        <!---->
+                        <div class="habilidades">
+                            <span>JavaScript</span>
+        
+                            <div class="barra-habilidades">
+        
+                                <div class="progreso ">
+                                    <span>72%</span>
+        
+                                     </div>
+                                   </div>
+                                </div>
+                                <!---->
+                                <div class="habilidades">
+                                    <span>Gestion de proyectos</span>
+                
+                                    <div class="barra-habilidades">
+                
+                                        <div class="progreso">
+                                            <span>85%</span>
+                
+                                             </div>
+                                           </div>
+                                        </div>  
+                                <!---->
+                                <div class="habilidades">
+                                    <span>Control de Versiones (Git) </span>
+                
+                                    <div class="barra-habilidades">
+                
+                                        <div class="progreso">
+                                            <span>77%</span>
+                
+                                             </div>
+                                           </div>
+                                        </div>
+                            <!---->
+                            <div class="habilidades">
+                                <span>Wordpress</span>
+            
+                                <div class="barra-habilidades">
+            
+                                    <div class="progreso">
+                                        <span>80%</span>
+            
+                                         </div>
+                                       </div>
+                                    </div>       
+                                    <!---->
+                                    <div class="habilidades">
+                                        <span>SpringBoot</span>
+                    
+                                        <div class="barra-habilidades">
+                    
+                                            <div class="progreso">  
+                                                <span>80%</span>
+                    
+                                                 </div>
+                                               </div>
+                                            </div> 
+                                            <!---->
+                                            <div class="habilidades">
+                                                <span> Gestión De Bases de Datos</span>
+                            
+                                                <div class="barra-habilidades">
+                            
+                                                    <div class="progreso">
+                                                        <span>91%</span>
+                            
+                                                         </div>
+                                                       </div>
+                                                    </div> 
+                                            
+                                            
+                    </div>
+
+                    <!--Habilidades profesionales-->
+                    <div class="col">
+                        <h3>Habilidades profesionales</h3>
+
+                        <div class="habilidades">
+                        <span>Comunicacón efectiva</span>
+    
+                        <div class="barra-habilidades">
+    
+                            <div class="progreso">
+                                <span>85%</span>
+    
+                                 </div>
+                               </div>
+                            </div>
+    
+                     <!---->
+                     
+                     <div class="habilidades">
+                        <span>Trabajo en equipo</span>
+    
+                        <div class="barra-habilidades">
+    
+                            <div class="progreso">
+                                <span>92%%</span>
+    
+                                 </div>
+                               </div>
+                            </div>
+                            <!---->
+                            <div class="habilidades">
+                                <span>Aprendizaje Continuio y <br> adaptabilidad</span>
+            
+                                <div class="barra-habilidades">
+            
+                                    <div class="progreso">
+                                        <span>72%</span>
+            
+                                         </div>
+                                       </div>
+                                    </div>
+                                    <!---->
+                                    <div class="habilidades">
+                                        <span>Resolución de problemas</span>
+                    
+                                        <div class="barra-habilidades">
+                    
+                                            <div class="progreso">
+                                                <span>88%</span>
+                    
+                                                 </div>
+                                               </div>
+                                            </div>
+                                <!---->
+                                <div class="habilidades">
+                                    <span>Liderazgo</span>
+                
+                                    <div class="barra-habilidades">
+                
+                                        <div class="progreso">
+                                            <span>80%</span>
+                
+                                             </div>
+                                           </div>
+                                        </div>       
+                                <!---->        
+                                        <div class="habilidades">
+                                            <span>Creatividad</span>
+                        
+                                            <div class="barra-habilidades">
+                        
+                                                <div class="progreso">
+                                                    <span>96%</span>
+                        
+                                                     </div>
+                                                   </div>
+                                                </div>           
+                                <!---->               
+                                
+                                
+                        </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <!--SECCION CURRICULUM-->
+
+    <section class="curriculum" id="curriculum">
+
+        <div class="contenido-seccion">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izqui">
+                        <h4>Ingenieria de software</h4>
+
+                        <span class="casa">Universidad de Cartagena</span>
+                        <span class="fecha">2019 - 2024</span>
+                        
+                        <p >Durante mi experiencia académica, he explorado el extenso universo del desarrollo de software, adquiriendo sólidos conocimientos  en programación,
+                            análisis</p>
+                            <span class="esconder" id="texto_escondido"> <p>y gestión de sistemas y diseño de aplicaciones.además. Estoy emocionado por seguir forjando mi camino en el mundo tecnológico y contribuir con mi pasión por
+                            la innovación y la transformación digital. </p></span>
+                        
+                    
+                        <button class="leerMasbtn" id="texto_escondido_btn">Leer más</button>
+                    
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="item izqui">
+
+
+                        <h4>Tecnico en sistemas </h4>
+
+                        <span class="casa">Servicio Nacioinal de Aprendizaje (SENA)</span>
+                        <span class="fecha">2016 - 2018</span>
+                       
+                        
+                        <p >Desde el primer dia, me sumergi en el mundo de la programacion y desarrolle habilidades y conocimientos solidas
+                            sobre redes, bases de datos, seguridad informatica y entre otras. </p>
+
+                            <span class="esconder" id="texto_escondido1"><p>Esto me ha preparado para enfrentar con confianza
+                             los desafíos tecnológicos del futuro, y estoy emocionado por seguir aprendiendo y creciendo en este apasionante campo.
+                             </p></span>
+                        <button class="leerMasbtn" id="texto_escondido_btn1">Leer más</button>
+                    
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="item izqui">
+                        <h4>Desarrollo web </h4>
+
+                        <span class="casa">Servicio Nacional de Aprendizaje (SENA)</span>
+                        <span class="fecha">2021 - 2023</span>
+             
+                        <p > Durante mi formación en desarrollo web, he explorado el potencial ilimitado del código para materializar ideas
+                            innovadoras y diseñar sitios web atractivos y funcionales.</p>
+                            <span class="esconder" id="texto_escondido2"><p> He adquirido un dominio sólido en lenguajes de
+                            programación clave como HTML, CSS y JavaScript, permitiéndome construir interfaces interactivas y responsivas que
+                            cautivan a los usuarios desde el primer clic.</p></span>
+                        
+                        <button class="leerMasbtn" id="texto_escondido_btn2">Leer más</button>
+                    
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                    <!---->
+                    <div class="col derecha">
+                        <h3>Experiencia de trabajo</h3>
+                        <div class="item dere">
+                            <h4>Webmaster</h4>
+    
+                            <span class="casa">Asociacion Atucsara</span>
+                            <span class="fecha">2021 - Actualida(2023)</span>
+                            <div class="p">
+                            <p>Desempeñe un papel fundamental en el desarrollo y mantenimiento de su presencia en línea. Mis responsabilidades
+                                incluían la gestión y actualización del sitio web de la asociación,
+                                </p> <span class="esconder" id="texto_escondido3"> garantizando una interfaz de usuario atractiva y
+                                funcional para los visitantes. Otro aspecto crucial de mi labor como Webmaster fue la implementación de medidas de
+                                seguridad y protección para salvaguardar los datos y la integridad del sitio web. Esto incluyó la aplicación de
+                                prácticas de seguridad informática y la actualización constante de software para mitigar posibles vulnerabilidades.
+                            </p></span> 
+                        </div>
+                            <button class="leerMasbtn" id="texto_escondido_btn3">Leer más</button>
+
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>    
+                        <!---->
+                        <div class="item dere">
+                            <h4> Plataforma de comercio electrónico</h4>
+    
+                            <span class="casa">Experiencia academica</span>
+                            <span class="fecha">2024/ abril-junio</span>
+                            <div class="p">
+                                <p>- Diseñé e implementé una plataforma escalable con Spring Boot,
+                                Spring MVC, MySQL y Thymeleaf. <br>
+                                - Implementé operaciones CRUD para la gestión de productos. <br>
+                                - Desarrollé una función de búsqueda para localizar productos por
+                                  nombre, categoría o descripción.  <br></p> <span class="esconder" id="texto_escondido4">
+                                 - Diseñé una interfaz intuitiva para explorar productos, agregar al
+                                        carrito y realizar pedidos. <br>
+                            - Pila tecnológica:</b> Spring Boot, Spring MVC, MySQL, Thymeleaf,
+                                            HTML, CSS, JavaScript. <br>
+
+                            -Utilicé Docker para la contenedorización y escalabilidad.
+
+
+                        
+                        </span>
+                        </div>
+                            <button class="leerMasbtn" id="texto_escondido_btn4">Leer más</button>
+
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>  
+                        <!---->
+                        <div class="item dere">
+                            <h4> Sistema de recomendación de carreras universitaria</h4>
+    
+                            <span class="casa">Experiencia academica</span>
+                            <span class="fecha">2023 junio - 2024 agosto</span>
+                            <p>-  Diseñé una interfaz gráfica con Tkinter conectada a una base de
+                                datos SQLite. <br>
+                                -  Implementé un sistema de recomendación basado en similitud de
+                                coseno para sugerir carreras y salidas profesionales.<br></p> <span class="esconder" id="texto_escondido5">
+                                - Gestioné datos de usuarios y carreras mediante una base de datos
+                                estructurada en SQLite. 
+                                 - Funcionalidades: ingreso de datos del usuario, selección de intereses
+                                 y habilidades, y recomendaciones personalizadas. <br>
+                            - <b>Pila tecnológica:</b>  Python, Tkinter, SQLite, NumPy, SciPy. <br>
+
+                
+
+
+                        
+                        </span>
+                            <button class="leerMasbtn" id="texto_escondido_btn5">Leer más</button>
+
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>  
+                        <!---->
+                </div>
+            </div>
+        </div>
+        
+    </section>
+  
+     <!--SECCION PORTAFOLIO-->
+     <section id="portafolio" class="projects-section">
+        <div class="background-gradient"></div>
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="header">
+                    <h1>PORTAFOLIO</h1>
+                    <p>Mis proyectos mas creativos. Cada uno de estos proyectos demuestra mi dedicacion, autonomia, trabajo en equipo y mi pasion por la programacion. Cada una de esas cualidades me permitio transformar ideas en realidades. Estoy encantado de compartirlos contigo.</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project Card 1 - Expense Tracker -->
+                    <div class="project-card" data-project="1">
+                        <div class="project-image" style="background-image: url(./img/expense.png)">
+                            <span class="project-tag">FullStack</span>
+                            <div class="project-overlay hidden">
+                                <a href="https://github.com/JesuGuerraP/expenserTracker.git" class="btn-repo">
+                                    Repo <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h2>Expense Tracker Application</h2>
+                            <p> aplicación web desarrollada con Spring Boot que permite iniciar seccion, registrar nuevos usuarios, gestionar los gastos personales 
+                                de forma intuitiva y eficiente. Proporciona una interfaz amigable con Thymeleaf para que
+                                 los usuarios puedan agregar, visualizar, actualizar y eliminar sus gastos.</p>
+                            <div class="tech-grid">
+                                <span class="tech-tag"><i class="fab fa-java" style="color:#007396;"></i>Java</span>
+                                <span class="tech-tag"><i class="fas fa-database" style="color:#4479A1;"></i>MySQL</span>
+                                <span class="tech-tag"><i class="fas fa-leaf" style="color:#6DB33F;"></i>Spring Boot</span>
+                                <span class="tech-tag"><i class="fas fa-file-code" style="color:#005F9E;"></i>Thymeleaf</span>
+                                <span class="tech-tag"><i class="fab fa-bootstrap" style="color:#563D7C;"></i>Bootstrap</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+                    <!-- Project Card 2 - E-commerce Platform -->
+                    <div class="project-card" data-project="2">
+                        <div class="project-image" style="background-image: url(./img/bestore.png)">
+                            <span class="project-tag">FullStack</span>
+                            <div class="project-overlay hidden">
+                                <a href="https://github.com/JesuGuerraP/beststore.git" class="btn-repo">
+                                    Repo <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h2>E-commerce Platform</h2>
+                            <p>BestStore es una aplicación web de comercio electrónico que implementa operaciones CRUD 
+                                (Crear, Leer, Actualizar y Eliminar) y funcionalidades de búsqueda</p>
+                                <div class="tech-grid">
+                                    <span class="tech-tag"><i class="fab fa-java" style="color:#007396;"></i>Java</span>
+                                    <span class="tech-tag"><i class="fas fa-leaf" style="color:#6DB33F;"></i>Spring Boot</span>
+                                    <span class="tech-tag"><i class="fas fa-stream" style="color:#8BC34A;"></i>Spring MVC</span>
+                                    <span class="tech-tag"><i class="fas fa-database" style="color:#4479A1;"></i>MySQL</span>
+                                    <span class="tech-tag"><i class="fas fa-file-code" style="color:#005F9E;"></i>Thymeleaf</span>
+                                </div>
+                                
+                            </div>
+                    </div>
+    
+                    <!-- Project Card 3 - Currency Converter -->
+                    <div class="project-card" data-project="3">
+                        <div class="project-image" style="background-image: url(./img/currency.png)">
+                            <span class="project-tag">FullStack</span>
+                            <div class="project-overlay hidden">
+                                <a href="https://github.com/JesuGuerraP/currency-converter.git" class="btn-repo">
+                                    Repo <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h2>Currency Converter</h2>
+                            <p>aplicación web que permite convertir divisas entre distintas monedas utilizando tasas de cambio actualizadas diariamente a través de una API externa.</p>
+                            <div class="tech-grid">
+                                <span class="tech-tag"><i class="fab fa-java" style="color:#007396;"></i>Java</span>
+                                <span class="tech-tag"><i class="fas fa-leaf" style="color:#6DB33F;"></i>Spring Boot</span>
+                                <span class="tech-tag"><i class="fas fa-leaf" style="color:#FF5733;"></i>ExchangeratesAPI.io</span>
+                                <span class="tech-tag"><i class="fas fa-file-code" style="color:#005F9E;"></i>Thymeleaf</span>
+                                <span class="tech-tag"><i class="fab fa-bootstrap" style="color:#563D7C;"></i>Bootstrap</span>
+                                <span class="tech-tag"><i class="fab fa-html5" style="color:#E34F26;"></i>HTML</span>
+                                <span class="tech-tag"><i class="fab fa-css3-alt" style="color:#1572B6;"></i>CSS</span>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+    
+                    <!-- Project Card 4 - Tic Tac Toe 
+                    <div class="project-card" data-project="4">
+                        <div class="project-image" style="background-image: url(./img/galeria2.png)">
+                            <span class="project-tag">FullStack</span>
+                            <div class="project-overlay hidden">
+                                <a href="#" class="btn-repo">
+                                    Repo <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h2>JUEGO TICTACTOE</h2>
+                            <p>Juego de Tic Tac Toe con Java</p>
+                        </div>
+                    </div>-->
+    
+                    <!-- Project Card 5 - Web Calculator 
+                    <div class="project-card" data-project="5">
+                        <div class="project-image" style="background-image: url(./img/galeria3.png)">
+                            <span class="project-tag">FullStack</span>
+                            <div class="project-overlay hidden">
+                                <a href="#" class="btn-repo">
+                                    Repo <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h2>CALCULADORA WEB</h2>
+                            <p>Calculadora Web usando HTML, CSS y JAVASCRIP</p>
+                        </div>
+                    </div>-->
+    
+                    <!-- Project Card 6 - Career Recommendation System -->
+                    <div class="project-card" data-project="6">
+                        <div class="project-image" style="background-image: url(./img/src.png)">
+                            <span class="project-tag">FullStack</span>
+                            <div class="project-overlay hidden">
+                                <a href="https://github.com/JesuGuerraP/Sistema-de-recomendaci-n-de-carreras.git" class="btn-repo">
+                                    Repo <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h2>Sistema de recomendacion de carreras</h2>
+                            <p>un sistema de recomendación de carreras universitarias utilizando Python y Tkinter, 
+                                que permite a los estudiantes obtener sugerencias personalizadas basadas en sus intereses y habilidades..</p>
+                            <div class="tech-grid">
+                                <span class="tech-tag"><i class="fab fa-python" style="color:#3776AB;"></i>Python 3.x</span>
+                                <span class="tech-tag"><i class="fas fa-window-maximize" style="color:#4B8BBE;"></i>Tkinter</span>
+                                <span class="tech-tag"><i class="fas fa-calculator" style="color:#013243;"></i>NumPy</span>
+                                <span class="tech-tag"><i class="fas fa-flask" style="color:#8E44AD;"></i>SciPy</span>
+                                <span class="tech-tag"><i class="fas fa-database" style="color:#003B57;"></i>SQLite</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+
+    <section class="contacto" id="contacto">
+        <div class="todo">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <form action="https://formsubmit.co/jesusguerrapineda000@gmail.com" method="POST">
+                            <input type="text" name="nombre" placeholder="Nombre" required>
+                            <input type="text" name="telefono" placeholder="Número de Teléfono" required>
+                            <input type="email" name="email" placeholder="Dirección de Correo" required>
+                            <input type="text" name="tema" placeholder="Tema" required>
+                            <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+    
+                            <button type="submit">
+                                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button>
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5503/#contacto">
+                            <p>¡Gracias por tu mensaje!</p>
+                            <input type="hidden" name="_captcha" value="false">
+                        </form>
+                    </div>
+                    <!-- Mapa -->
+                    <div class="col">
+                        <img src="./img/mapa.png" alt="Mapa de ubicación">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>Colombia, Magangué-Bolívar
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen-button"></i>Llámannos: (+57) 3024094733
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>Email: jesusguerrapineda000
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--FOOTER-->
+    <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="contenido-footer">
+        <div class="info">
+            <h3>Contacto</h3>
+            <p>Email: jesusguerrapineda000@gmail.com</p>
+            <p>Teléfono: (+57) 3024094733</p>
+        </div>
+        <div class="enlaces-utiles">
+            <h3>Enlaces Útiles</h3>
+            <a href="#inicio">Inicio</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#servicios">Servicios</a>
+        </div>
+        <div class="redes">
+            <h3>Redes Sociales</h3>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+
+
+    <script src="./js/scrip.js"></script>
+    <script src="./js/script1.js"></script>
+</body>
+</html>
